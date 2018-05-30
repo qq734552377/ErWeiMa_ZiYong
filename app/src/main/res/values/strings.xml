@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">侧面二维码扫描</string>
+    <string name="open_1">打开摄像头1</string>
+    <string name="open_2">打开摄像头2</string>
+</resources>
