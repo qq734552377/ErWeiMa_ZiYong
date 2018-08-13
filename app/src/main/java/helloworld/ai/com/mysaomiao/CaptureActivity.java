@@ -55,9 +55,9 @@ public class CaptureActivity extends Activity implements Callback {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_capture);
-//        Intent intent = getIntent();
+        Intent intent = getIntent();
 //        String msg = intent.getStringExtra("msg");
-//        CAMERAID = intent.getIntExtra(CAMERAKEY, 0);
+        CAMERAID = intent.getIntExtra(CAMERAKEY, 0);
 
         // 初始化 CameraManager
         CameraManager.init(getApplication());
